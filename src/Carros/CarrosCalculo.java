@@ -1,6 +1,6 @@
 package Carros;
 
-import javax.swing.JOptionPane; // method UI dialog-box JavaSwing InputDialog and showMessageDialog.
+import javax.swing.JOptionPane; // method UI dialog-box API JavaSwing InputDialog and showMessageDialog.
 
 public class CarrosCalculo {
 
