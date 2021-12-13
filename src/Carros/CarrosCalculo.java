@@ -28,6 +28,8 @@ public class CarrosCalculo {
 		
 		int resposta = JOptionPane.showConfirmDialog(null, "Deseja ver a quantidade de carros por Pessoa ?");
 		
+		// condiciom value to showConfirmDialog option confirmation to user.
+		
 		if (resposta == 0) {
 			JOptionPane.showMessageDialog(null, "A quantidade de carros por Pessoa é : " + divisao);
 		}
