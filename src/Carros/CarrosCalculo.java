@@ -26,7 +26,18 @@ public class CarrosCalculo {
 		
 		//  Print results in showMessageDialog.
 		
-		JOptionPane.showMessageDialog(null, "Os carros divididos pelo número de pessoas foi : " + divisao + " Carros para cada pessoa e soblou " + resto + " carro (s).");
+		int resposta = JOptionPane.showConfirmDialog(null, "Deseja ver a quantidade de carros por Pessoa ?");
+		
+		if (resposta == 0) {
+			JOptionPane.showMessageDialog(null, "A quantidade de carros por Pessoa é : " + divisao);
+		}
+		
+		resposta = JOptionPane.showConfirmDialog(null, "Deseja ver a quantidade de carros restantes ?");
+		
+		if (resposta == 0) {
+			JOptionPane.showMessageDialog(null, "O resto da divisão de carros por pessoa é " + resto + " Carro(s) restante(s).");
+		}
+		//JOptionPane.showMessageDialog(null, "Os carros divididos pelo número de pessoas foi : " + divisao + " Carros para cada pessoa e soblou " + resto + " carro (s).");
 
 	}
 
